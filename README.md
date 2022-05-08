@@ -1,7 +1,6 @@
 # PokeStats
 
 A Pokemon app with some light data visualization. Made in React and uses react-chartjs-2 for radar/spider graphs. 
-
 Filter pokemon by search term!
 
 <img src="preview/preview1.jpg" alt="PokeStats Preview Image"/>
