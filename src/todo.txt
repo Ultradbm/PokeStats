@@ -1,0 +1,4 @@
+add filters
+- search by name/description
+- search by types (tag system)
+- search by stat, equal, less than, greater than
