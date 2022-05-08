@@ -13,11 +13,11 @@ Filter pokemon by search term!
 ---
 Todo:
 <br/>
--Add more pokemon details such as Pokemon Category, i.e. Pikachu "The Mouse Pokemon"
--Add some form of lazy loading to speed up app
--Optimize search
--Debating whether all data should be handled in a parent component or each individual pokemon should handle its own data, or maybe in global state or some other method.
--Add more search/filter/sort options. I.e. filter by type, category, region, sort by stats.
+-Add more pokemon details such as Pokemon Category, i.e. Pikachu "The Mouse Pokemon"<br/>
+-Add some form of lazy loading to speed up app<br/>
+-Optimize search<br/>
+-Debating whether all data should be handled in a parent component or each individual pokemon should handle its own data, or maybe in global state or some other method.<br/>
+-Add more search/filter/sort options. I.e. filter by type, category, region, sort by stats.<br/>
 
 
 ---
