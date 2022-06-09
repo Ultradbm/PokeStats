@@ -1,3 +1,32 @@
+# PokeStats
+
+A Pokemon app with some light data visualization. Made in React and uses react-chartjs-2 for radar/spider graphs. 
+Filter pokemon by search term!
+
+<img src="preview/preview1.jpg" alt="PokeStats Preview Image"/>
+
+
+<img src="preview/preview2.jpg" alt="PokeStats Search Preview Image"/>
+
+<br/>
+
+---
+Todo:
+<br/>
+-Add more pokemon details such as Pokemon Category, i.e. Pikachu "The Mouse Pokemon"<br/>
+-Add some form of lazy loading to speed up app<br/>
+-Optimize search<br/>
+-Debating whether all data should be handled in a parent component or each individual pokemon should handle its own data, or maybe in global state or some other method.<br/>
+-Add more search/filter/sort options, i.e. filter by type, category, region, sort by stats.<br/>
+
+
+---
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
