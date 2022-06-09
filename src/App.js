@@ -2,6 +2,7 @@
 
 import "./App.css";
 import { useEffect, useState } from "react";
+import _ from "lodash";
 
 import { Pokemon } from "./Components/Pokemon";
 import { PokemonList } from "./Components/PokemonList";
@@ -22,13 +23,17 @@ function App() {
   const [pokemonData, setPokemonData] = useState([]);
   const [search, setSearch] = useState("");
 
+  const searchHandler = _.debounce((searchTerm, setSearch) => {
+    setSearch(searchTerm);
+  }, 300);
+
   return (
     <div className="App">
       <div className="title">PokeStats</div>
       <input
         className="search-bar"
         onChange={(e) => {
-          setSearch(e.target.value);
+          searchHandler(e.target.value, setSearch);
         }}
       ></input>
       <PokemonList pokemonData={pokemonData} searchTerm={search} />
